@@ -1,4 +1,4 @@
-package com.proyecto.brigadapets;
+package com.proyecto.brigadapets.Main;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -14,6 +14,14 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
+import com.proyecto.brigadapets.Fragmentos.Agenda;
+import com.proyecto.brigadapets.Fragmentos.Ayuda;
+import com.proyecto.brigadapets.Fragmentos.Busqueda;
+import com.proyecto.brigadapets.Fragmentos.Denuncias;
+import com.proyecto.brigadapets.Fragmentos.Home;
+import com.proyecto.brigadapets.Fragmentos.MyPets;
+import com.proyecto.brigadapets.Fragmentos.Notificaciones;
+import com.proyecto.brigadapets.R;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -124,4 +132,5 @@ public class MainActivity extends AppCompatActivity
     public void onFragmentInteraction(Uri uri) {
 
     }
+
 }

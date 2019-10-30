@@ -1,4 +1,4 @@
-package com.proyecto.brigadapets;
+package com.proyecto.brigadapets.Fragmentos;
 
 import android.content.Context;
 import android.net.Uri;
@@ -10,16 +10,23 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.proyecto.brigadapets.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Notificaciones.OnFragmentInteractionListener} interface
+ * {@link Busqueda.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Notificaciones#newInstance} factory method to
+ * Use the {@link Busqueda#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Notificaciones extends Fragment {
+public class Busqueda extends Fragment {
+
+
+
+
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -31,7 +38,7 @@ public class Notificaciones extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public Notificaciones() {
+    public Busqueda() {
         // Required empty public constructor
     }
 
@@ -41,11 +48,11 @@ public class Notificaciones extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Notificaciones.
+     * @return A new instance of fragment Busqueda.
      */
     // TODO: Rename and change types and number of parameters
-    public static Notificaciones newInstance(String param1, String param2) {
-        Notificaciones fragment = new Notificaciones();
+    public static Busqueda newInstance(String param1, String param2) {
+        Busqueda fragment = new Busqueda();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -60,14 +67,19 @@ public class Notificaciones extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_notificaciones, container, false);
+        return inflater.inflate(R.layout.fragment_busqueda, container, false);
     }
+
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
