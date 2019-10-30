@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BrigadaPets</string>
+    <string name="nav_header_title">BrigadaPets</string>
+    <string name="nav_header_subtitle">Hola @usuario</string>
+
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_own">Mis Pets</string>
+    <string name="menu_search">Encontrar</string>
+    <string name="menu_alert">Notificaciones</string>
+    <string name="menu_calendar">Agenda</string>
+
+    <string name="menu_report">Denunciar</string>
+    <string name="menu_help">Ayuda</string>
+
+    <string name="menu_contact">Contáctanos</string>
+
+
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
