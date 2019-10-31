@@ -46,7 +46,7 @@ public class PublicacionAdapter extends RecyclerView.Adapter<PublicacionAdapter.
         Publicacion publicacion = publicacionList.get(position);
         holder.titulo.setText(publicacion.getTitulo());
         holder.detalle.setText(publicacion.getDetalle());
-        holder.imagen.setImageResource(publicacion.getImagenId());
+        holder.imagen.setImageResource(publicacion.getImagen());
     }
 
     @Override
